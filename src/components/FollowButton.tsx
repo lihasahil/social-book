@@ -26,7 +26,7 @@ function FollowButton({ userId }: { userId: string }) {
       onClick={handleFollow}
       disabled={isLoading}
       className="w-20"
-    ></Button>
+    >Follow</Button>
   );
 }
 
